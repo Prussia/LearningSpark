@@ -20,8 +20,13 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
-.idea/workspace.xml
-.idea/.name
 
 # Hive
 metastore_db/*
+
+
+.idea/**
+.idea/*.xml
+project/build.properties
+.idea/scala_compiler.xml
+.idea/sbt.xml
